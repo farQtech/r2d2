@@ -1,0 +1,46 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/610U5zLUwIL._AC_SX466_.jpg",
+      "size": "stretch"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Hi!, I'm r2d2",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": true,
+      "text": "You can see learn more about me below.",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "Who is r2d2?",
+      "url": "https://en.wikipedia.org/wiki/R2-D2"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "What movies r2d2 featured in?",
+      "url": "https://en.wikipedia.org/wiki/Star_Wars"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Some stuff about MBF!",
+      "url": "https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0"
+    }
+  ]
+}
